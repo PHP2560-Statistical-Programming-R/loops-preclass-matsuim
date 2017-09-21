@@ -1,7 +1,9 @@
 ---
 title: "Pre-Class Work for September 27"
-author: Maggie Matsui
-output: html_document
+author: "Maggie Matsui"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 
@@ -36,6 +38,7 @@ sum <- 0
 for(i in seq(0, 1000, by = 2)){
   sum <- sum + i
 }
+sum
 ```
 
 C. Now, repeat A and B WITHOUT using a loop.
@@ -70,6 +73,8 @@ for(i in 1:dim(survey.clean)[1]){
     }
   }
 }
+
+survey.clean
 ```
 
 B. Now, again using a loop, add a new column to the dataframe called “invalid.answers” that indicates, for each participant, how many bad answers they gave.
