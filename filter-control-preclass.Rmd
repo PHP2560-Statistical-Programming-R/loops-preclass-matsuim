@@ -39,7 +39,11 @@ for(i in seq(0, 1000, by = 2)){
 ```
 
 C. Now, repeat A and B WITHOUT using a loop.
+```{r}
+sum(c(0:1000))
 
+sum(seq(0, 1000, by = 2))
+```
 ### Question 3:
 
 Here is a dataframe of survey data containing 5 questions :
