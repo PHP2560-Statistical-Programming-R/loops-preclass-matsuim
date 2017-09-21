@@ -31,6 +31,13 @@ sum
 
 B. Now, add all the EVEN integers between 0 and 1000 (hint: use seq())
 
+```{r}
+sum <- 0
+for(i in seq(0, 1000, by = 2)){
+  sum <- sum + i
+}
+```
+
 C. Now, repeat A and B WITHOUT using a loop.
 
 ### Question 3:
